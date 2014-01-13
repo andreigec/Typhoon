@@ -1,0 +1,4 @@
+This game allows you to switch textures, but u can not manually add more.
+The texture must be a TGA file, 24-32 bpp and a power of 2 size. eg 32x32
+Then the texture must be rotated 180 degrees, and then mirrored to display correctly.
+

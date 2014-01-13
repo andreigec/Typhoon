@@ -1,0 +1,515 @@
+*---------------------------------------------------------------------------------
+*                             Shout Outs:                                          
+*Graphics: Callan Bencich - weirdozinc.deviantart.com    
+*---------------------------------------------------------------------------------
+
+----------------------------------------------------------------------
+Version 0.5.0 - Typhoon - By Andrei Gec (C) 2009? YET TO BE RELEASED
+----------------------------------------------------------------------
+__NEW FEATURES__
+
+__UPDATES__
+
+__BUG FIXES__
+
+
+--------------------
+Things to Come
+--------------------
+-Bugs debugged.
+-Maps, story line.
+-Optimized code for improved speed and decreased memory usage.
+
+
+----------------------------------------------------------------------
+Version 0.4.0 - Typhoon - By Andrei Gec (C) 6/10/2008
+----------------------------------------------------------------------
+__NEW FEATURES__
+-Each type of NPC now has a faction that allows dynamic attacking and changing of factions. The current factions are hostile, friendly and neutral.
+-Added a potion shop that sells health, magic and stamina regaining potions.
+-Game now saves and loads enemies from 'pushed' maps instead of clearing them (e.g. going into town with an enemy near and leaving again, it should still be there).
+-Added a simplistic screen when player dies instead of going straight back to the opening menu.
+-At start-up, if option is set, changes keyboard repeat speed and hides cursor.  On quit reverts changes.
+-Allowed the player to swap position with adjacent friendly NPCS to avoid blocking.
+-Added saving and loading from the console.
+-Player can now swap between the Stats, Drop and Equipment menus.
+-Can now specify the type of an object as well as its global id from CFG files so can easily check if an item is for example a helmet without having to check the global id.
+-Added sound, music, and master volume controls.
+
+__UPDATES__
+-Loading memory representations of in-game objects from database now uses xml which tidies up the process.
+-Major overhaul of equipment classes to benefit from the new xml loading.
+-Major optimizations made for enemy and item searching, and enemy AI for use with new factions.
+-Upgraded map enemy push stack to allow infinite map entries.
+-Fixed item prices so that the items show the real cost of purchase, instead of hiding the 'luck' element as it was before.
+-Textures and sounds are now loaded on demand instead of being all loaded from start-up, and old textures/sounds are trimmed periodically to minimize memory usage.
+-Upgraded Typhoon to use custom AVL Tree data structure instead of stdlib map structure.
+-Enemies spawned, and the items they drop are now more effectively chosen.
+-Removed command scrolling in console (pressing tab). Will add auto completion later.
+-Finally fixed image loading, so all pictures look the same, and are all loaded up right from their image file.
+-New regeneration system for health, magic, stamina and air.
+-Got rid of the Inn feature, death is now permanent (unless you save and reload etc).
+-Updated mapassist files to use xml, and is now tidier being linked from the mapcfg.xml.
+-Console and game history now hide the colour formatting characters. (-,+,*)
+-Removed a screen border; resized windows.
+-Restructured debug tile console mode, raytracing, pathfinding and more will be under DBTM - debug tile mode
+-Remade scripting engine to work with XML, and not need to load the script file into the game as a string which uses a lot of memory.
+
+__BUG FIXES__
+-Fixed bugs in the casino, such as not being able to quit, as well as error messages.
+-Fixed inn loading when player died.
+-Fixed several bugs and oversights in the advanced path finding, and added limits to path finding calculations to stop excessive CPU use.
+-Fixed a bug in the brute force path movement, npcs could occasionally go more than 1 tile in any direction.
+-Fixed a bug where the game would crash if the screen view size was bigger than the map in the intro animation.
+-Fixed an error where if there was more than one npc, and one of those npcs died from the environment, the game would crash.
+-Fixed a bug where the game would crash if the player dashed over an adjacent npc, or could dash onto an npc 2 squares away.
+-Fixed multiple bugs where the system would crash if the player tried to do something to outside the map, like talk.
+-Fixed problem where health bars for npcs and the player would warp when the map was zoomed out.
+-Fixed a bug where locking the players movement stopped opening and closing the console.
+-Stopped allowing the pickup of items when a hostile NPC is standing on it.
+-Game now shows an error texture if a normal texture fails loading.
+-Fixed shadow/raytracing bug, where incorrect shadows would be drawn at different angles.
+-Fixed a bug when loading a game, then entering a dungeon immediately.
+-Fixed a bug where game was not checking correctly if saved game was in a dungeon, was generating a new dungeon every time.
+-Added a thread count for the display method so that only one thread updates the screen.
+-Going into the main menu while playing with the minimap open, and continuing the game keeps the minimap open.
+
+----------------------------------------------------------------------
+Version 0.3.7 - Typhoon - By Andrei Gec (C) 6/9/2007
+----------------------------------------------------------------------
+__NEW FEATURES__
+-Player attacks with each weapon separately, each has a chance to miss, score critical hits etc.
+-Wear and rearm menus amalgamated into a single use items menu - 'u'. This will allow potions and other non-wear/arm-able items to be used in the same menu in the future.
+-It is now possible to zoom in and out the main game view.
+
+__UPDATES__
+-Scripting is now read into memory on map load, and read from there instead of reading from the file each time.
+-More various scripting commands.
+-Updated all map loading to be more efficient, and extends the maximum depth of map loads.
+-Size of the Typhoon Window cannot be resized in-game anymore, as the size is now loaded from the game config.cfg file at start-up.
+
+__OTHER__
+-The talking/block message screen now shows an image of the talker (as well as the name).
+-Torches can now be equipped, and add to the player’s line of sight during darkness.
+-Weapons can now be one handed; not used with any other weapon simultaneously.
+-Begun work on optimizations
+>Memory leaks fixed.
+>Old linked lists and nodes originally coded in c updated to C++ classes.	
+-Player can no longer teleport on to water, and gives a 'more' verbose reason why the player cannot teleport onto non passable squares like trees, mountains etc.
+-Converted all of the terrain tests to use a global function which should provide modularity when new tiles are added.
+-Some variables such as mapheight and mapwidth are needed for knowing the maps size, so changing these variables are now secured.
+-Made a new screen just for the help manual - F1 instead of 'h' in previous versions.
+
+__BUG FIXES__
+-Fixed bug where program was checking information from outside its bounds in regards to armour, causing possible random numbers.
+-Fixed npc targeting bug.
+-Fixed bug where saving on a town->map tile entered that map on loading the save file.
+-Fixed several bugs related to improper map loading past two levels.
+-Fixed a bug when missing an enemy with a spell.
+-Fixed a bug where the player was effectively getting one less air than shown before losing hp.
+-Fixed a bug where loading objects from map files were only done when going into a map, and not when coming out.
+-Fixed several bugs related to improper loading and saving of maps in a dungeon.
+-Fixed display errors that showed bright squares after objects on maps.
+
+----------------------------------------------------------------------
+Version 0.3.6 - Typhoon - By Andrei Gec (C) 27/4/2007
+----------------------------------------------------------------------
+__NEW FEATURES__
+-Converted light/shadow effects to enable dynamic ray-casting line of sight methods.
+-Added quest items which cannot be sold or dropped unless caused by a trigger.
+-Added random map generation for dungeons.
+-Added custom encryption for savefiles.
+
+__UPDATES__
+-Changed mini map to show only immediate surrounding squares to avoid slowdown on large maps.
+-Converted enemy grid to linked-lists; more expensive when calculating paths, but saves heaps of memory on large maps.
+-Player now has a dynamic line of sight.
+-Light from torches uses dynamic light.
+-Changed LOS to use a more circular area.
+-Re-enabled dynamic light from spells, with lightning and fire having a larger light radius.
+-Scripting is now much more 'powerful', can use mapped variables for condition checks.
+-Added several new scripting commands to change npcs position, npcs talk text etc.
+-Names for npcs (the header during block text) can now be inputted via the mapassist files.
+
+__OTHER__
+-Cast menu shades out spells only if players magic amount (instead of the max) is less than the spells requirement.
+-Enemies can't be seen when its night time, unless in a light radius.
+-Enemy AI tweaked for speed when player is out of the enemies view distance.
+-Maps can be entered in 3 ways: entered normally like a town, open a dialog to enter the tile or step back, or force entry into the tile.
+-When exiting a map, the player can either be transported back to his starting position, or a new position.
+-Tables and other features that can be seen over, reduce the line of sight.
+-New tile added: Marsh - Lowers current stamina by 5 on stepping on it.
+-In game mini map has transparency so objects can be seen through it.
+
+__BUG FIXES__
+-Fixed several bugs related to deprecated spell and NPC handling.
+-Fixed an error that crashed the game when a multi shot spell hit/killed a monster.  
+-Fixed bugs that were caused by the commenting update in 0.3.5.
+-Fixed bugs where some fopen functions were not tested for null, caused crash.
+-Fixed save game error.
+-Fixed bug where changing the player position by the console did not update the enemies mapfile.
+-Fixed discrepancy in gaining experience from killing enemies from different methods.
+-Fixed bug where you could run over terrain that could not be crossed normally.
+-Fixed bug where u could see the outline of the enemy out of the los.
+
+-------------------------------------------------------------------
+Version 0.3.5 - Typhoon by Andrei Gec (C) 17/12/2006
+-------------------------------------------------------------------
+__NEW FEATURES__
+-Added scripting, (albeit simple) that can allow for quests cut scenes and the like.
+-Added text auto complete in the console for use with commands (press tab in console).
+-On death, the player reappears at the last inn visited albeit slightly poorer.
+-In the normal screens in game, (i.e. not menus, shops etc) a mini map can be toggled with the tab key.
+-Added a casino with a poker mini-game.
+
+__UPDATES__
+-Updated the buggy NPC move AI with a new custom A* path finding algorithm, enemy defaults to old movement method if it sees the player, but can’t reach it, and if its enemy is outside its viewing distance, it wanders.
+-Overhauled the data structures used in typhoon, and converted them into classes.
+-Increased the size of the texture array and 'defragmented' textures that weren't near their texture group due to previous size restrictions.
+-Made text in signs, NPC text and NPC text character names dynamic from configuration files.
+-Finally allowed for comments in configuration files, and code now does checks for inconsistencies/errors in configuration files.
+
+__OTHER__
+-Added missing Sound Effect for attacking a sign, which is invalid.
+-Allowed spell attacks on NPC’s (not enemies).
+-Added support for console text over save games.
+-Allowed NPCS to open doors that are in the way of their path.
+-Added a variable period between light level changes.
+-Fixed various inconsistencies with the outputting of text.
+-Added various console commands and reformatted the console help text.
+-In console, all text is converted to upper case, so that any permutation of a word works with the game commands (e.g.  
+dbpv DBpv DBPV works).
+
+__BUG FIXES__
+-Fixed a bug where you could close a door even though an NPC was on the same tile.
+-Fixed a bug with the force item-inventory console command which only changed the first items type to that of the parameter.
+-Fixed 'fence post' bugs related to map bounds when creating enemies.
+-Fixed teleport working outside the world map and fixed it costing MP on invalid move.
+-Fixed message display bug, and added an update that forces the message to finish the current word before a new line is printed.
+-Fixed error where the file script wasn't closed on exit.
+-Fixed a bug when using the dash command.
+-Fixed a bug where if typhoon was minimized and maximized, a turn would be lost.
+
+-------------------------------------------------------------------
+Version 0.3.4 - Typhoon by Andrei Gec (C) 22/9/2006
+-------------------------------------------------------------------
+__NEW FEATURES__
+-Major overhaul of texture usage, now they are loaded into memory instead of being loaded from the hard drive each time they were required. (Will increase size of app but also increase speed).
+-Added block of text NPC talk capability.
+-Added feature that allows a minimum monster level spawn in maps with the variable set.
+-Added a mini image showing the time via state of the sun/moon in case the player is in a map without 'natural' lighting.
+-You can now get an auto exit message when stepping on an exit tile in a non-world map.
+-Added store that sells food, and re-enabled food feature.
+-Added ability to store enemy whereabouts when a map is entered or exited.
+
+__UPDATES__
+-Added reliable fix for map crash when players y position was near low bounds in a map (usually <=7).
+
+__OTHER__
+-When an incorrect version save file is detected, instead of quitting, game prints error to console, and returns to menu.
+-Made spell sleep in its animation, as before it was uncapped, and moved way too fast to be seen easily.
+-Disabled coast generation due to the screen displaying not a proper pixel amount, which forces the screen to stretch/remove pixels here and there in full screen.
+-Added Icons for the exe
+
+__BUG FIXES__
+-Fixed bug where dash would still consume stamina if the move is blocked.
+-Stopped init of option variables to 1 whenever a new game was started.
+-Fixed bug where the full screen variable wasn’t properly loaded.
+-Fixed bug where spells advanced day/night with each move.
+-Fixed bug where armour was sold at 0, yet weapons sold for 'normal' price.
+-Fixed bug where weapon names weren’t displayed properly in shops.
+-Fixed a bug where the first time you went into a shop, the info about the default highlighted item was blank.
+-Fixed a bug where occasionally, the map file for the enemies weren't updated soon enough, causing problems later.
+-Fixed a bug where you could enter a town while in the rearm menu.
+-Fixed a bug where in a few menus, certain keys weren’t trapped, leading to an immediate switch to the state inputted.
+-Found a bug by accident which may try to free an invalid pointer when changing a map for a smaller one.
+-Made the help 'h' and swim buttons 'z' not take a turn up (even though they are temporary).
+
+-------------------------------------------------------------------
+Version 0.3.3 - Typhoon by Andrei Gec (C) 12/7/2006
+-------------------------------------------------------------------
+__NEW FEATURES__
+-Added basic SFX to game with FMOD.
+-Added ability to attack NPC’s; they change to type enemy, and attack you back.
+-Added first version of options menu.
+-Added Inn's in town.
+-Added doors to be opened and closed with the o key.
+-Added static lighting on maps in the form of torches.
+-Added night/day cycle to all maps without a set darkness level.
+
+__UPDATES__
+-Gives specific output when swimming or passing a turn on a water tile.
+-Allowed spells to start away from player, i.e. from an enemy, and for spells to do damage to the player.
+-Added magic enemies that can shoot a random (<10 bug) amount of magic at player in all 8 directions.
+-Redesigned weapon drop for enemies, making it drop progressively higher weapons with stronger monsters, and more unlikely to drop weapons at all.
+-More armour.
+-Updated in game shadows so that enemies/objects get displayed in the correct shadow level.
+
+__OTHER__
+-Added save/load of enemies’ health.
+-Added total armour % in wear/drop menus.
+-On load, the magic for a spell is copied over successfully.
+-Enabled viewing of the armour and weapons in wear and rearm screens in the inventory quick view.
+-Showed if weapon or armour is stronger than what is worn when buying from a shop.
+-Made heal not set health to its max if hp was > max.
+-Adjusted maximum and minimum bonuses with luck on the purchase and sale of weapons.
+
+__BUG FIXES__
+-Several bug fixes where enemy spell was overriding player spell.
+-Fixed bug where enemy who died on lava or water crashed game.
+-Fixed small bug where temporary positions for player weren’t copying over with teleport spell.
+-Fixed rare chance of crash when map was reloaded for the animation screen.
+-Fixed bug where if a weapon was sold, it wouldn’t display the correct tag for the item.
+-Fixed bug where starting map position wasn’t loaded correctly on map load.
+-Forgot to set the 4th parameter in glcolour4f to 1 after use.
+-Fixed bug in displaying the mini map.
+-Fixed bug where if the game was saved on an entry/exit to a level, it crashed or forced a load into that map on reload.
+
+-------------------------------------------------------------------
+Version 0.3.2 - Typhoon by Andrei Gec (C) 19/6/2006
+-------------------------------------------------------------------
+__NEW FEATURES__
+-Game called Typhoon, due to the soon to be added weather story line.
+-Added extra viewing tiles from map, so that the map won’t look as blocky, currently has diagonal and horizontal, but not partial sides.
+-Added signs that can be read.
+-Added ability to buy and sell spells from a vendor.
+-Added ability to buy and sell armour, and to wear/un wear it (w)
+-Added first version of the opening screen animation.
+-Weapon and armour comparisons in rearm drop and wear menus for easy use.
+
+__UPDATES__
+-Major overhaul of spell system to scale with the number of projectiles from ranged spells, updated save/load to take this into account.
+-Added ability to see NPC’s and friends (for the future) in the look function.
+-Updated mini-map to show the majority of the new tiles.
+-Changed un-equipping of weapons/armour, you now need to choose which slot you are going to unequip.
+
+__OTHER__
+-Changed NPC file usage.
+-Changed weapons so that you don’t lose damage if you don’t have required strength, instead you only gain a bonus when above.
+-Added tag when buying or selling, to identify current item.
+-Tweaked attack, so that there is no extra strength required for the second weapon to gain damage.
+-Added inventory overflow measures again with new unequip mode.
+-Added enemy environmental damage, although they will follow player into lava, they will move out first even if you are in attacking range.
+
+__BUG FIXES__
+-Fixed bug where enemy was spawned in water on an off chance.
+-Fixed bug where on load of game, NPC static state wasn’t saved properly. 
+-Fixed bug which occurred when a spell was loaded with an incorrect type.
+-Fixed bug where console could be closed when looking (possibly others).
+
+-------------------------------------------------------------------
+Version 0.3.1 - Untitled Game by Andrei Gec (C) 8/6/2006
+-------------------------------------------------------------------
+__NEW FEATURES__
+-Added simple talk to NPC’s, currently supports buy/sell dude.
+-Added function to add preset NPC’s to a map.
+-Added function to add preset items to a map.
+
+__UPDATES__
+-Added ranged spells that don’t follow basic damage case, and do different things
+: Wind attacks that push the enemy back, do 1/2 damage each push until fade out.
+: 'Final Spells' that are very powerful and very expensive mp wise.
+: Black hole, takes 50% MAX HP from enemy and player in base case. Max is 75 from enemy, 30 from player.
+: Teleporting shifts player a max of 4 squares away.
+: Alchemy, converts an item on ground to base 50% of shop price, max 100% of shop, doesn’t include bonus luck % as from shop.
+-Enabled map loading, added it to the load/save functions.
+
+__OTHER__
+-Added staggered bonus regenerate points when user has a stat over the threshold (e.g. gain 2 hp instead of 1 when user has 200+ max hp).
+-Added cheat command to console, to stop cheat usage accidentally. CC to toggle.
+-Redid help file for maps, changed layout of mapoptions.cfg for convenience.
+
+__BUG FIXES__
+-Fixed in game GUI to correctly display numbers that are larger than the max.
+-Fixed bug where picking up items on the spot using enter didn’t stop pickup mode.
+-Fixed bug where the sell menu and pick up function weren't updating frequently enough.
+-Fixed several bugs that could overload the inventory (>25 items) that were passed on from the last version.
+-Fixed bug in which a bronze dagger was given to loaded games, instead to only new games.
+-Fixed save bug where spell image wasn’t saved correctly straight after initialization of game.
+-Fixed bug where console could be forced from opening window by using its keyboard command.
+-Fixed bug where reloading a spell on loading a game, cost the player MP.
+
+-------------------------------------------------------------------
+Version 0.3.0 - Untitled Game by Andrei Gec (C) 2/6/2006
+-------------------------------------------------------------------
+__NEW FEATURES__
+-Added first generation of the opening game screen, still yet to use middle area for something.
+-Added in-game console.'`' or '~' to activate.
+-Added first generation spell casting menu. 'c' to show. Current spell appears in inventory in game. 'f' to use spell repeatedly.
+-Added skill choosing with points gained from levelling up.
+-Added first generation load and save game feature. (WARNING) Differences between generational save games will be incompatible!
+-Added Buy and Sell menus, yet to incorporate them.
+
+__UPDATES__
+-2nd generation attack functionality, fixed various inconsistencies, gave enemy a % of random damage.
+-Added level up ability, exp required is level * 450.
+-Added player stats on stats screen, and weapon type on rearm/drop screen.
+-Added exp functions on killing enemies.
+-Current spells are ranged: initial cost only, 5 per square for a bonus of 5x damage, 20 per square for 10x damage, and static non ranged spells.
+-Finally updated enemy creation. Enemies get created randomly outside the screen.
+-Did rewrite of inventory, to store 25 instead of 30 items.
+
+__OTHER__
+-Replaced global loop system to use enumerated values, so screens which aren’t the normal GUI can be displayed easier.
+-Added support to print dynamic variables supplied by an inputted string via the console.
+-Added dynamic variable value printing.
+-Changed mode of storing and retrieving enemies, so that getting a similar level to the player is easier.
+- (temporary until proper) Added mode for world shading (set shading level, no dynamic lights)
+- (temporary) Disabled ability to spawn friendly characters.
+
+__BUG FIXES__
+-Regression testing for bugs in changing size of array, and enemy fix.
+-Fixed ability to load and continue a game from the main menu.
+-Fixed bug where any movement could trigger checkenv; lose hp/air etc when spells were activated.
+-Fixed bug where text on the drop or rearm screens could bork up.
+-Fixed bug where fireball disintegrated after cast if only had base mp.
+-Fixed a bug where the exp required to level up was incorrect; gave incorrect reading.
+
+-------------------------------------------------------------------
+Version 0.2.8 - Untitled Game by Andrei Gec (C) 26/5/2006
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+-Fixed move ability, moving onto squares doesn't output anything.
+-Rewrote code to take advantage of newer secure C Run-Time Libraries.
+-Edited weapon code to allow for cost and strength of weapons.
+-Holding a 2nd weapon requires 2x the required strength to wield with a maximum of 90 strength.
+-The value of 50 % luck is the critical hit %.
+-Having less than the min strength for a weapon results in a lower % of damage.
+-Agility affects missing an attack, and dodging an attack.
+-Dexterity affects the amount of damage taken from the enemy, with the max being 50% avoided.
+-Fixed pick up/get to work for all directions, and enter to work on spot.
+-Completed sword weapon block totalling 31 weapons so far.
+-Added different 'factions': NPC's, enemies, the player and friendly attacking NPC's.
+-Added HP bar above all NPC’s for easy health readings.
+-Fixed bug where the enemy wasn’t displayed if it had <5/100's of its original health, but was still active.
+
+-------------------------------------------------------------------
+Version 0.2.7 - Untitled Game by Andrei Gec (C) 21/5/2006
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+-Added critical hit to attack functions for player (10%) and enemy (5%).
+-Fixed bug where there was a miniscule chance where NPC wasn't seen by player, but still could attack.
+-Added ability to store and show items on the world map.
+-Fixed get ability, puts straight into inventory.
+-Fixed drop ability, drops on ground if possible (not already being used).
+-Fixed rearm ability, swaps weapons in and out of inventory.
+-Fixed look ability. Can now see items ground tiles, and enemies.
+- (temporary) Disabled ability to go into and out of maps.
+-Added stats screen with inventory and mini map.
+-Fixed various errors.
+
+-------------------------------------------------------------------
+Version 0.2.6 - Untitled Game by Andrei Gec (C) 17/5/2006
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+-Added first generation attack functionality, (bots attack player; player can attack bots).
+-Added weapons config for inclusion of base damages.
+-Upgraded to 2nd generation stats (graphics, inventory).
+-2nd generation in-game history (colours).
+-Remodelled worn equipment on separate structs for easy access, speed and modularity.
+
+-------------------------------------------------------------------
+Version 0.2.5 - Untitled Game by Andrei Gec (C) 15/5/2006
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+-Fixed push/pop mechanism for going in and out of maps.
+-Fixed displaying multiple NPC's at the same time.
+-Third Gen AI, added extra matrix added so that player can't move on enemies; enemies can't move on player.  Revisions also made, skips movement if position is directly next to player.
+-Fixed about file, and all documentation to match code upgrades.
+
+-------------------------------------------------------------------
+Version 0.2.4 - Untitled Game by Andrei Gec (C) 12/5/2006
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+-Increased Source code Modularity.
+-Started dependency on config files in CFG folder for modding purposes.
+-Added .mapassist files which contain the coordinates for changing the map in a map.
+-Added map making tutorial in the Maps folder and tile help.
+
+-----------------------------------------------------------------
+Version 0.2.3 - Untitled Game by Andrei Gec (C) 2006
+-----------------------------------------------------------------
+Name: Generic OpenGL Game
+-Fixed up Map switching on maps, yet to fix position pushing/popping.
+-Tweaked enemy AI.
+-Added first generation of the in-game event history.
+
+-------------------------------------------------------------------
+Version 0.2.2 - Untitled Game by Andrei Gec (C) 10/5/2006
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+-Improved AI to second generation (moves around objects, can’t go past long lines when player is on other side, compensated by making it move left and right). AI moves on player.
+-Enemies currently only move when prompted with the spacebar (wait) command.
+-Separated code into multiple files as main file was becoming unwieldy to edit.
+-Display mode now allows Alpha channel, yet to implement.
+
+-------------------------------------------------------------------
+Version 0.2.1 - Untitled Game by Andrei Gec (C) 2006
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+-Removed generate terrain function, put replacement in print terrain.
+-Enabled structs to be printed in world.
+-Created first generation enemy AI (Move towards player via direct diagonals or straights, can’t handle any obstacles).
+
+-------------------------------------------------------------------
+Version 0.2.0 - Untitled Game by Andrei Gec (C) 8/5/2006 
+-------------------------------------------------------------------
+Name: Generic OpenGL Game
+- (Temporary) Fixed map crash when the players y position which was <10 saw outside of array (padded map files), replaced stone padding with BLACK texture.
+-Fixed clipping of diagonal moves with Player.
+-Added Linked Structs to hold items, and equipment, and functions that use them, not yet implemented.
+-Added new window on GUI for name of game when one has been found.
+-Included First generation of Stats in GUI.
+-Removed mud effect on stamina.
+-Added global count system for air, stamina, and health regenerate.
+-Enabled Full screen Mode by pressing alt and enter.
+
+-------------------------------------------------------------------
+Version 0.1.0 - Untitled Game by Andrei Gec (C) 8/5/2006
+-------------------------------------------------------------------
+First GUI Release
+Window size: 640x480, scalable
+Win Starting pos: 10, 10
+Name: Generic OpenGL Game
+Path Loading - Loads all files except the exe file and the about.txt file from path /Data/. Tiles, BGM, SFX, MAPS folders included.
+Map loading - Fully automatic loading via custom functions. Image Files - Uses 24-32 bit per pixel TGA files. Must be uncompressed RCA, and a power of 2 (etc 32x32 or 256x256)
+Texture usage - Scaled and mapped onto 32x32 blocks which are then spread by 15x11(x, y) blocks on the game screen.
+User Movement - Player movement is emulated using terrain mapping to the game board (11x15 size) by reloading the map after positioning.
+Tile Recognition - Loads and maps current map to the game board, then checks for invalid moves.
+Current Commands - Dash (f), enable swimming (z), quit (q).
+Environment - Air decreases from arbitrary start value of 10, when =0 health decreases from arbitrary value of 10, when health =0, auto game exit.  Dash allowed 10 times then auto off. Dash off on water
+
+FEATURES DISABLED:
+   No text output, Right click menus empty (possible errors).  No BGM/SFX implemented. Stamina, health, air are implemented, but not outputted.
+
+-------------------------------------------------------------------
+Version 0.0.1 - Untitled Game by Andrei Gec (C) 6/5/2006
+-------------------------------------------------------------------
+First cmd line release.
+Loads map from map file.
+User can move around map
+No array bound checking.
+
+-----------------------------------------------------------------------------------------------------------------
+--Thanks to:
+--Chris B, Tim W, Kaiwen C, Vlad D  
+--Stephen G, Stephen N, Stephen W,
+--And to everyone who helped me with Typhoon and weren’t mentioned!---
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

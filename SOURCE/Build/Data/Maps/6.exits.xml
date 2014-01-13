@@ -1,0 +1,38 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--Dungeon Creet Map-->
+<TML>
+  
+  <MapExit>
+    <id>"1"</id>
+    <xpos>"23"</xpos>
+    <ypos>"49"</ypos>
+    <ispop>"true"</ispop>
+    <forceType>"1"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+
+  <MapExit>
+    <id>"1"</id>
+    <xpos>"24"</xpos>
+    <ypos>"49"</ypos>
+    <ispop>"true"</ispop>
+    <forceType>"1"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+  
+  <MapExit>
+    <id>"7"</id>
+    <xpos>"23"</xpos>
+    <ypos>"28"</ypos>
+    <ispop>"false"</ispop>
+    <forceType>"0"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+  
+</TML>

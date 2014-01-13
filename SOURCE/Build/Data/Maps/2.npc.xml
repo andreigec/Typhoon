@@ -1,0 +1,342 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--Avar Map-->
+<TML>
+  <PresetNPC>
+    <id>"199"</id>
+    <movetype>"0"</movetype>
+    <talktype>"1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"37"</xpos>
+    <ypos>"67"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"198"</id>
+    <movetype>"0"</movetype>
+    <talktype>"105"</talktype>
+    <faction>"0"</faction>
+    <xpos>"46"</xpos>
+    <ypos>"55"</ypos>
+  </PresetNPC>
+  
+  
+  <PresetNPC>
+    <id>"198"</id>
+    <movetype>"0"</movetype>
+    <talktype>"104"</talktype>
+    <faction>"0"</faction>
+    <xpos>"57"</xpos>
+    <ypos>"33"</ypos>
+  </PresetNPC>
+  
+  <PresetNPC>
+    <id>"195"</id>
+    <movetype>"0"</movetype>
+    <talktype>"103"</talktype>
+    <faction>"0"</faction>
+    <xpos>"50"</xpos>
+    <ypos>"17"</ypos>
+  </PresetNPC>
+  
+  <PresetNPC>
+    <id>"198"</id>
+    <movetype>"0"</movetype>
+    <talktype>"101"</talktype>
+    <faction>"0"</faction>
+    <xpos>"24"</xpos>
+    <ypos>"17"</ypos>
+  </PresetNPC>
+  
+  <PresetNPC>
+    <id>"198"</id>
+    <movetype>"0"</movetype>
+    <talktype>"100"</talktype>
+    <faction>"0"</faction>
+    <xpos>"18"</xpos>
+    <ypos>"59"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"196"</id>
+    <movetype>"0"</movetype>
+    <talktype>"0"</talktype>
+    <faction>"0"</faction>
+    <xpos>"24"</xpos>
+    <ypos>"19"</ypos>
+  </PresetNPC>
+  
+  <PresetNPC>
+  <id>"197"</id>
+  <movetype>"0"</movetype>
+  <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"38"</xpos>
+    <ypos>"68"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"46"</xpos>
+    <ypos>"56"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"33"</xpos>
+    <ypos>"68"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"34"</xpos>
+    <ypos>"63"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"37"</xpos>
+    <ypos>"58"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"34"</xpos>
+    <ypos>"53"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"37"</xpos>
+    <ypos>"49"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"34"</xpos>
+    <ypos>"46"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"37"</xpos>
+    <ypos>"46"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"36"</xpos>
+    <ypos>"41"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"35"</xpos>
+    <ypos>"41"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"34"</xpos>
+    <ypos>"34"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"24"</xpos>
+    <ypos>"43"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"21"</xpos>
+    <ypos>"53"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"24"</xpos>
+    <ypos>"53"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"19"</xpos>
+    <ypos>"58"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"21"</xpos>
+    <ypos>"37"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"21"</xpos>
+    <ypos>"30"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"24"</xpos>
+    <ypos>"27"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"23"</xpos>
+    <ypos>"18"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"30"</xpos>
+    <ypos>"31"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"36"</xpos>
+    <ypos>"27"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"37"</xpos>
+    <ypos>"18"</ypos>
+  </PresetNPC>
+
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"41"</xpos>
+    <ypos>"16"</ypos>
+  </PresetNPC>
+
+   <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"49"</xpos>
+    <ypos>"16"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"43"</xpos>
+    <ypos>"34"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"49"</xpos>
+    <ypos>"31"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"57"</xpos>
+    <ypos>"32"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"50"</xpos>
+    <ypos>"44"</ypos>
+  </PresetNPC>
+
+  <PresetNPC>
+    <id>"197"</id>
+    <movetype>"0"</movetype>
+    <talktype>"-1"</talktype>
+    <faction>"0"</faction>
+    <xpos>"47"</xpos>
+    <ypos>"47"</ypos>    
+  </PresetNPC>
+</TML>
+

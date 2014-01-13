@@ -1,0 +1,232 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<TML>
+  <!--Hostile NPCS-->
+  <NPC>
+    <name>"Dark-Elf"</name>
+    <id>"100"</id>
+    <type>"300"</type>
+    <level>"1"</level>
+    <attackbase>"5"</attackbase>
+    <defensebase>"10"</defensebase>
+    <hp>"40"</hp>
+    <exp>"40"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/darkelf.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Raider"</name>
+    <id>"101"</id>
+    <type>"300"</type>
+    <level>"4"</level>
+    <attackbase>"7"</attackbase>
+    <defensebase>"10"</defensebase>
+    <hp>"70"</hp>
+    <exp>"80"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/raider.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Dwarf"</name>
+    <id>"102"</id>
+    <type>"300"</type>
+    <level>"6"</level>
+    <attackbase>"11"</attackbase>
+    <defensebase>"15"</defensebase>
+    <hp>"120"</hp>
+    <exp>"140"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/dwarf.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Bandit"</name>
+    <id>"103"</id>
+    <type>"300"</type>
+    <level>"6"</level>
+    <attackbase>"15"</attackbase>
+    <defensebase>"20"</defensebase>
+    <hp>"150"</hp>
+    <exp>"180"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/bandit.tga"</path>
+  </NPC>
+  
+  <NPC>
+    <name>"Bat"</name>
+    <id>"104"</id>
+    <type>"300"</type>
+    <level>"8"</level>
+    <attackbase>"20"</attackbase>
+    <defensebase>"25"</defensebase>
+    <hp>"200"</hp>
+    <exp>"250"</exp>
+    <canswim>"true"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/bat.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Shadow"</name>
+    <id>"105"</id>
+    <type>"300"</type>
+    <level>"10"</level>
+    <attackbase>"20"</attackbase>
+    <defensebase>"25"</defensebase>
+    <hp>"300"</hp>
+    <exp>"340"</exp>
+    <canswim>"true"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/shadow.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Wizard"</name>
+    <id>"106"</id>
+    <type>"303"</type>
+    <level>"12"</level>
+    <attackbase>"20"</attackbase>
+    <defensebase>"25"</defensebase>
+    <hp>"400"</hp>
+    <exp>"400"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/wizard.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Archer"</name>
+    <id>"107"</id>
+    <type>"303"</type>
+    <level>"14"</level>
+    <attackbase>"30"</attackbase>
+    <defensebase>"25"</defensebase>
+    <hp>"500"</hp>
+    <exp>"500"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/archer.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Crafty-Ninja"</name>
+    <id>"108"</id>
+    <type>"300"</type>
+    <level>"14"</level>
+    <attackbase>"40"</attackbase>
+    <defensebase>"30"</defensebase>
+    <hp>"600"</hp>
+    <exp>"600"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/ninja.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Orc"</name>
+    <id>"109"</id>
+    <type>"300"</type>
+    <level>"16"</level>
+    <attackbase>"60"</attackbase>
+    <defensebase>"40"</defensebase>
+    <hp>"750"</hp>
+    <exp>"740"</exp> 
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/orc.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Wakka"</name>
+    <id>"180"</id>
+    <type>"300"</type>
+    <level>"99"</level>
+    <attackbase>"999"</attackbase>
+    <defensebase>"999"</defensebase>
+    <hp>"5"</hp>
+    <exp>"1"</exp>
+    <canswim>"false"</canswim>
+    <faction>"1"</faction>
+    <path>"Data/Images/Enemies/wakka.tga"</path>
+  </NPC>
+
+  <!--Neutral NPCS-->
+
+  <NPC>
+    <name>"Person"</name>
+    <id>"195"</id>
+    <type>"300"</type>
+    <level>"-1"</level>
+    <attackbase>"10"</attackbase>
+    <defensebase>"10"</defensebase>
+    <hp>"200"</hp>
+    <exp>"5"</exp>
+    <canswim>"false"</canswim>
+    <faction>"0"</faction>
+    <path>"Data/Images/Enemies/npc1.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Person"</name>
+    <id>"196"</id>
+    <type>"300"</type>
+    <level>"-1"</level>
+    <attackbase>"10"</attackbase>
+    <defensebase>"10"</defensebase>
+    <hp>"200"</hp>
+    <exp>"5"</exp>
+    <canswim>"false"</canswim>
+    <faction>"0"</faction>
+    <path>"Data/Images/Enemies/npc2.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Torch"</name>
+    <id>"197"</id>
+    <type>"301"</type>
+    <level>"-1"</level>
+    <attackbase>"10"</attackbase>
+    <defensebase>"10"</defensebase>
+    <hp>"-1"</hp>
+    <exp>"-1"</exp>
+    <canswim>"false"</canswim>
+    <faction>"0"</faction>
+    <path>"Data/Images/Weapons/torch.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Shopkeeper-Fonz"</name>
+    <id>"198"</id>
+    <type>"300"</type>
+    <level>"-1"</level>
+    <attackbase>"10"</attackbase>
+    <defensebase>"10"</defensebase>
+    <hp>"600"</hp>
+    <exp>"5"</exp>
+    <canswim>"false"</canswim>
+    <faction>"0"</faction>
+    <path>"Data/Images/Enemies/fonz.tga"</path>
+  </NPC>
+
+  <NPC>
+    <name>"Sign"</name>
+    <id>"199"</id>
+    <type>"302"</type>
+    <level>"-1"</level>
+    <attackbase>"10"</attackbase>
+    <defensebase>"10"</defensebase>
+    <hp>"-1"</hp>
+    <exp>"-1"</exp>
+    <canswim>"false"</canswim>
+    <faction>"0"</faction>
+    <path>"Data/Images/Other/sign.tga"</path>
+  </NPC>
+</TML>

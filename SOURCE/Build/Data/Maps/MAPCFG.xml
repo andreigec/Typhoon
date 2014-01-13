@@ -1,0 +1,138 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<TML>
+  <!--Important! Set to the first map to load when the user starts a new game/opening animation (world map usually)-->
+  <firstMapId>"1"</firstMapId>
+  
+  <MAP>
+    <name>"World Map"</name>
+    <path>"Data/Maps/1.map"</path>
+    <id>"1"</id>
+    <type>"500"</type>
+    <startX>"984"</startX>
+    <startY>"22"</startY>
+    <enemyCreationRate>"60"</enemyCreationRate>
+    <minEnemyLevel>"0"</minEnemyLevel>
+    <darknessLevel>"0"</darknessLevel>
+    <PresetNpcFile>""</PresetNpcFile>
+    <PresetItemFile>""</PresetItemFile>    
+    <PresetExitFile>"Data/Maps/1.exits.xml"</PresetExitFile>
+    <PresetScriptFile>"Data/Maps/1.script.xml"</PresetScriptFile>
+  </MAP>
+
+  <MAP>
+    <name>"Avar"</name>
+    <path>"Data/Maps/2.map"</path>
+    <id>"2"</id>
+    <type>"500"</type>
+    <startX>"36"</startX>
+    <startY>"68"</startY>
+    <enemyCreationRate>"0"</enemyCreationRate>
+    <minEnemyLevel>"0"</minEnemyLevel>
+    <darknessLevel>"0"</darknessLevel>
+    <PresetNpcFile>"Data/Maps/2.npc.xml"</PresetNpcFile>
+    <PresetItemFile>"Data/Maps/2.item.xml"</PresetItemFile>
+    <PresetExitFile>"Data/Maps/2.exits.xml"</PresetExitFile>
+    <PresetScriptFile>""</PresetScriptFile>
+  </MAP>
+  
+  <MAP>
+    <name>"Avar Basement"</name>
+    <path>"Data/Maps/3.map"</path>
+    <id>"3"</id>
+    <type>"500"</type>
+    <startX>"10"</startX>
+    <startY>"17"</startY>
+    <enemyCreationRate>"0"</enemyCreationRate>
+    <minEnemyLevel>"0"</minEnemyLevel>
+    <darknessLevel>"0"</darknessLevel>
+    <PresetNpcFile>""</PresetNpcFile>
+    <PresetItemFile>""</PresetItemFile>
+    <PresetExitFile>"Data/Maps/3.exits.xml"</PresetExitFile>
+    <PresetScriptFile>""</PresetScriptFile>
+  </MAP>
+
+  <MAP>
+    <name>"Abaddon"</name>
+    <path>"Data/Maps/4.map"</path>
+    <id>"4"</id>
+    <type>"500"</type>
+    <startX>"36"</startX>
+    <startY>"68"</startY>
+    <enemyCreationRate>"0"</enemyCreationRate>
+    <minEnemyLevel>"0"</minEnemyLevel>
+    <darknessLevel>"0"</darknessLevel>
+    <PresetNpcFile>""</PresetNpcFile>
+    <PresetItemFile>""</PresetItemFile>
+    <PresetExitFile>"Data/Maps/4.exits.xml"</PresetExitFile>
+    <PresetScriptFile>""</PresetScriptFile>
+  </MAP>
+
+  <MAP>
+    <name>"Altin"</name>
+    <path>"Data/Maps/5.map"</path>
+    <id>"5"</id>
+    <type>"500"</type>
+    <startX>"59"</startX>
+    <startY>"36"</startY>
+    <enemyCreationRate>"0"</enemyCreationRate>
+    <minEnemyLevel>"0"</minEnemyLevel>
+    <darknessLevel>"0"</darknessLevel>
+    <PresetNpcFile>""</PresetNpcFile>
+    <PresetItemFile>""</PresetItemFile>
+    <PresetExitFile>"Data/Maps/5.exits.xml"</PresetExitFile>
+    <PresetScriptFile>""</PresetScriptFile>
+  </MAP>
+
+  <MAP>
+    <name>"Creet Dungeon"</name>
+    <path>"Data/Maps/6.map"</path>
+    <id>"6"</id>
+    <type>"500"</type>
+    <startX>"23"</startX>
+    <startY>"48"</startY>
+    <enemyCreationRate>"0"</enemyCreationRate>
+    <minEnemyLevel>"0"</minEnemyLevel>
+    <darknessLevel>"3"</darknessLevel>
+    <PresetNpcFile>""</PresetNpcFile>
+    <PresetItemFile>""</PresetItemFile>
+    <PresetExitFile>"Data/Maps/6.exits.xml"</PresetExitFile>
+    <PresetScriptFile>""</PresetScriptFile>
+  </MAP>
+
+  <MAP>
+    <name>"Creet Dungeon Depths"</name>
+    <path>"Data/Maps/7.dungeonassist.xml"</path>
+    <id>"7"</id>
+    <type>"501"</type>
+    <startX>"-1"</startX>
+    <startY>"-1"</startY>
+    <enemyCreationRate>"60"</enemyCreationRate>
+    <minEnemyLevel>"0"</minEnemyLevel>
+    <darknessLevel>"5"</darknessLevel>
+    <PresetNpcFile>""</PresetNpcFile>
+    <PresetItemFile>""</PresetItemFile>
+    <PresetExitFile>""</PresetExitFile>
+    <PresetScriptFile>""</PresetScriptFile>
+  </MAP>
+
+  <MAP>
+    <name>"Creet Dungeon Basement"</name>
+    <path>"Data/Maps/8.map"</path>
+    <id>"8"</id>
+    <type>"500"</type>
+    <startX>"22"</startX>
+    <startY>"37"</startY>
+    <enemyCreationRate>"0"</enemyCreationRate>
+    <minEnemyLevel>"-1"</minEnemyLevel>
+    <darknessLevel>"2"</darknessLevel>
+    <PresetNpcFile>""</PresetNpcFile>
+    <PresetItemFile>""</PresetItemFile>
+    <PresetExitFile>"Data/Maps/8.exits.xml"</PresetExitFile>
+    <PresetScriptFile>""</PresetScriptFile>
+  </MAP>
+  
+  
+</TML>

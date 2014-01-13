@@ -1,0 +1,908 @@
+﻿Build started 13/01/2014 4:38:32 PM.
+     1>Project "C:\Users\andrei.gec\Downloads\ss\GIT\Typhoon\SOURCE\Typhoon\Typhoon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"..\Debug\Typhoon.pch" /Fo"..\Debug\\" /Fd"..\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Typhoon.cpp
+         Typhoon.cpp
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(715): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(717): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(719): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(720): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(733): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(735): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(737): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(738): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(751): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(753): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(755): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(756): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(892): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(893): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(895): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(896): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(2909): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(2912): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(2913): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(3204): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(3235): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(3235): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\disps2.cpp(3237): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\control.cpp(179): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(401): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(431): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(458): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(459): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(644): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(645): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(657): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(660): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(662): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(663): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(692): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(693): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(694): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(792): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(793): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(801): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(802): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(803): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(804): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(906): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(1578): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(1579): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(1586): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\keyboard.cpp(1587): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapstackhead.cpp(25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapstackhead.cpp(26): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapstackhead.cpp(36): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapstackhead.cpp(37): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapstackhead.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\anim.cpp(140): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\anim.cpp(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\glo.cpp(11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\glo.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play2.cpp(10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play2.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(28): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(31): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(33): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(87): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(88): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(89): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(91): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(142): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(145): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(146): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(147): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(194): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(195): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\play.cpp(196): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\sp.cpp(8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\sp.cpp(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\sp.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\sp.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\dun.cpp(9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\dun.cpp(11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\equ.cpp(8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\equ.cpp(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(38): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\winfo.cpp(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(368): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(370): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(372): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(374): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(376): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(378): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(380): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(382): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(384): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(386): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\maingame.cpp(388): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\script.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\script.cpp(68): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\script.cpp(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\script.cpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\script.cpp(230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\script.cpp(280): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mp.cpp(77): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mp.cpp(134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mp.cpp(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mp.cpp(357): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mp.cpp(406): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mp.cpp(626): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mp.cpp(628): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(15): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(37): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(56): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(70): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(85): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(90): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(91): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(96): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(97): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(101): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(102): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(169): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(171): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(172): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(174): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(175): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\consolestuffs.cpp(177): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapenemieslist.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapenemieslist.cpp(20): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapenemieslist.cpp(21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\mapenemieslist.cpp(27): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeobject.cpp(25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeobject.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(400): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(401): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(459): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(460): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(461): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(462): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\nodeenemy.cpp(463): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(42): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1113): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1133): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1152): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1153): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1173): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1174): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1192): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1193): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1194): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1211): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1212): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1213): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1229): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1231): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1232): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1260): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1261): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1262): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1267): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1268): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1269): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1270): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1275): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1276): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1277): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1278): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1304): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1305): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1340): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1341): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1383): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1384): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1417): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1418): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1427): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1428): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1436): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1437): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1445): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1446): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1463): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1464): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1474): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1475): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1520): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1521): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1540): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1541): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1567): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1583): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1589): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1594): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1598): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1602): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1606): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1610): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1614): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1618): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1630): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1635): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1647): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1660): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1673): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1682): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1687): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1693): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1704): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1705): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1711): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1717): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1718): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1719): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1744): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1745): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1746): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1909): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1961): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1962): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1963): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1964): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1965): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(1966): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2033): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2034): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2035): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2067): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2068): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2069): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2071): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2072): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2074): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2075): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2076): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2078): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2079): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2080): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2089): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2090): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2091): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2211): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2212): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2236): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2237): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2415): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2418): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2420): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2902): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2903): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2904): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2905): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2919): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2920): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2921): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2922): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2933): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2934): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2935): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2936): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2938): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2956): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2957): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2968): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2969): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2986): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(2987): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3007): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3497): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3498): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3499): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3500): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3501): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3502): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3511): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3512): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3513): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3734): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3735): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3812): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3813): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3814): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3815): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3816): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3840): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3841): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3842): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3843): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3844): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3845): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3852): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3853): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3854): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3855): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3857): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3863): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3864): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3865): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(3866): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4304): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4306): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4308): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4323): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4328): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4333): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4346): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4351): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4356): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4369): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4374): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4379): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4394): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4395): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4409): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4761): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4762): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4764): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4765): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4766): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4821): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4822): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4823): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4824): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4825): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4898): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4899): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4900): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4902): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4903): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4908): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4909): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4910): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4911): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4912): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4921): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4922): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4923): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4924): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4956): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4957): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4958): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4959): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4974): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4975): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4976): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4977): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4994): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4995): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4996): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(4997): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5110): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5111): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5112): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5250): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5251): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5256): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5257): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5332): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5333): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5334): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5335): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5336): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5406): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5407): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5408): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5409): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5427): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5432): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5433): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5440): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5441): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5624): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5625): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5626): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5701): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5702): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5712): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5713): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5720): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5723): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5725): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5727): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5729): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5731): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5733): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5735): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5737): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5739): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5741): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5743): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5745): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5747): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5749): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5751): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5753): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5755): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5757): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5759): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5761): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5763): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5765): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5767): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5893): error C2146: syntax error : missing ';' before identifier 'PlaySound'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5894): error C2039: 'SystemplaySound' : is not a member of 'FMOD'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5894): error C3861: 'SystemplaySound': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5895): error C3861: 'FMUSIC_StopSong': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5901): error C3861: 'FMUSIC_StopSong': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5922): error C3861: 'FSOUND_SetSFXMasterVolume': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5926): error C2065: 'FSOUND_FREE' : undeclared identifier
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5926): error C3861: 'FSOUND_PlaySound': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5945): error C2039: 'Sound_Load' : is not a member of 'FMOD'
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5945): error C2065: 'FSOUND_UNMANAGED' : undeclared identifier
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5945): error C2065: 'FSOUND_NORMAL' : undeclared identifier
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5945): error C2065: 'FSOUND_HW2D' : undeclared identifier
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5945): error C3861: 'Sound_Load': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5951): error C2065: 'FSOUND_FREE' : undeclared identifier
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5951): error C3861: 'FSOUND_PlaySound': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5965): error C3861: 'FMUSIC_SetMasterVolume': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5971): error C3861: 'FMUSIC_SetLooping': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5972): error C3861: 'FMUSIC_PlaySong': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5988): error C3861: 'FMUSIC_LoadSong': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5996): error C3861: 'FMUSIC_SetMasterVolume': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5997): error C3861: 'FMUSIC_SetLooping': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\classes\exe.cpp(5998): error C3861: 'FMUSIC_PlaySong': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\typhoon.cpp(89): error C3861: 'FSOUND_GetVersion': identifier not found
+     1>c:\users\andrei.gec\downloads\ss\git\typhoon\source\typhoon\src\typhoon.cpp(95): error C3861: 'FSOUND_Init': identifier not found
+     1>Done Building Project "C:\Users\andrei.gec\Downloads\ss\GIT\Typhoon\SOURCE\Typhoon\Typhoon.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.62

@@ -1,0 +1,26 @@
+//how many randomly generated levels til last level?
+2
+
+//light level /5, 0 is world light, 5 is darkness
+5
+
+//map size for each dungeon
+100
+
+//enemy generation rate 0=none
+60
+
+//min enemy level 0=default
+0
+
+//0 if dungeon, 1 if tower
+0
+
+//map generation layout. 1=square rooms
+1
+
+//what map id to load on last level
+6
+
+//what map to pop back to (entrance map)
+6

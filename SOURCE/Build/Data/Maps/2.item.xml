@@ -1,0 +1,14 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--Avar Map-->
+<TML>
+  <PresetItem>
+    <id>"203"</id>
+    <amount>"1"</amount>
+    <xpos>"26"</xpos>
+    <ypos>"18"</ypos>
+  </PresetItem>
+  </TML>
+

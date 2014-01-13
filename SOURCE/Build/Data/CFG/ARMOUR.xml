@@ -1,0 +1,192 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<TML>
+  <!--Armour Items-->
+  <!--Helmets-->
+  <ARM>
+    <name>"LeatherHelmet"</name>
+    <id>"500"</id>
+    <type>"200"</type>
+    <cost>"100"</cost>
+    <defensePercent>"2"</defensePercent>
+    <path>"Data/Images/Armour/cap.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"BronzeHelmet"</name>
+    <id>"501"</id>
+    <type>"200"</type>
+    <cost>"500"</cost>
+    <defensePercent>"5"</defensePercent>
+    <path>"Data/Images/Armour/bronzehelm.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"IronHelmet"</name>
+    <id>"502"</id>
+    <type>"200"</type>
+    <cost>"1000"</cost>
+    <defensePercent>"10"</defensePercent>
+    <path>"Data/Images/Armour/ironhelm.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"SteelHelmet"</name>
+    <id>"503"</id>
+    <type>"200"</type>
+    <cost>"2000"</cost>
+    <defensePercent>"15"</defensePercent>
+    <path>"Data/Images/Armour/steelhelm.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"FullHelmet"</name>
+    <id>"504"</id>
+    <type>"200"</type>
+    <cost>"10000"</cost>
+    <defensePercent>"20"</defensePercent>
+    <path>"Data/Images/Armour/fullhelm.tga"</path>
+  </ARM>
+  
+  <!--Chest Armour -->
+  <ARM>
+    <name>"LeatherVest"</name>
+    <id>"510"</id>
+    <type>"201"</type>
+    <cost>"500"</cost>
+    <defensePercent>"5"</defensePercent>
+    <path>"Data/Images/Armour/bodyarmour.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"BronzeMail"</name>
+    <id>"511"</id>
+    <type>"201"</type>
+    <cost>"2000"</cost>
+    <defensePercent>"10"</defensePercent>
+    <path>"Data/Images/Armour/bronzechest.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"IronMail"</name>
+    <id>"512"</id>
+    <type>"201"</type>
+    <cost>"5000"</cost>
+    <defensePercent>"15"</defensePercent>
+    <path>"Data/Images/Armour/ironchest.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"SteelMail"</name>
+    <id>"513"</id>
+    <type>"201"</type>
+    <cost>"10000"</cost>
+    <defensePercent>"25"</defensePercent>
+    <path>"Data/Images/Armour/steelchest.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"FullMail"</name>
+    <id>"514"</id>
+    <type>"201"</type>
+    <cost>"20000"</cost>
+    <defensePercent>"30"</defensePercent>
+    <path>"Data/Images/Armour/fullchest.tga"</path>
+  </ARM>
+  
+  <!--Leg Armour -->
+
+  <ARM>
+    <name>"LeatherLegs"</name>
+    <id>"520"</id>
+    <type>"202"</type>
+    <cost>"500"</cost>
+    <defensePercent>"5"</defensePercent>
+    <path>"Data/Images/Armour/pants.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"BronzeLegs"</name>
+    <id>"521"</id>
+    <type>"202"</type>
+    <cost>"2000"</cost>
+    <defensePercent>"10"</defensePercent>
+    <path>"Data/Images/Armour/bronzepants.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"IronLegs"</name>
+    <id>"522"</id>
+    <type>"202"</type>
+    <cost>"5000"</cost>
+    <defensePercent>"15"</defensePercent>
+    <path>"Data/Images/Armour/ironpants.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"SteelLegs"</name>
+    <id>"523"</id>
+    <type>"202"</type>
+    <cost>"10000"</cost>
+    <defensePercent>"25"</defensePercent>
+    <path>"Data/Images/Armour/steelpants.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"FullLegs"</name>
+    <id>"524"</id>
+    <type>"202"</type>
+    <cost>"20000"</cost>
+    <defensePercent>"30"</defensePercent>
+    <path>"Data/Images/Armour/fullpants.tga"</path>
+  </ARM>
+  
+  <!--Shoes-->
+  <ARM>
+    <name>"LeatherBoots"</name>
+    <id>"530"</id>
+    <type>"203"</type>
+    <cost>"100"</cost>
+    <defensePercent>"2"</defensePercent>
+    <path>"Data/Images/Armour/boots.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"BronzeBoots"</name>
+    <id>"531"</id>
+    <type>"203"</type>
+    <cost>"500"</cost>
+    <defensePercent>"5"</defensePercent>
+    <path>"Data/Images/Armour/bronzeboots.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"IronBoots"</name>
+    <id>"532"</id>
+    <type>"203"</type>
+    <cost>"1000"</cost>
+    <defensePercent>"10"</defensePercent>
+    <path>"Data/Images/Armour/ironboots.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"SteelBoots"</name>
+    <id>"533"</id>
+    <type>"203"</type>
+    <cost>"2000"</cost>
+    <defensePercent>"15"</defensePercent>
+    <path>"Data/Images/Armour/steelboots.tga"</path>
+  </ARM>
+
+  <ARM>
+    <name>"FullBoots"</name>
+    <id>"534"</id>
+    <type>"203"</type>
+    <cost>"10000"</cost>
+    <defensePercent>"20"</defensePercent>
+    <path>"Data/Images/Armour/fullboots.tga"</path>
+  </ARM>
+   
+</TML>

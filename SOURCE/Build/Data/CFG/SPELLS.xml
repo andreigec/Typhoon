@@ -1,0 +1,231 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<TML>
+  <!--Spells-->
+  <!-- Static Spells (don't shoot, immediate effect)-->
+  <!--Do not change names of spells, as code identifies spells via their name-->
+  <SPL>
+    <name>"Teleport"</name>
+    <id>"454"</id>
+    <type>"400"</type>
+    <cost>"10"</cost>
+    <mp>"5"</mp>
+    <basedamage>"10"</basedamage>
+    <path>"Data/Images/Spells/teleport.tga"</path>
+    <soundEffect>"Data/SFX/teleport.wav"</soundEffect>
+  </SPL>
+  
+  <SPL>
+    <name>"AirBubble"</name>
+    <id>"451"</id>
+    <type>"400"</type>
+    <cost>"10"</cost>
+    <mp>"5"</mp>
+    <basedamage>"1"</basedamage>
+    <path>"Data/Images/Spells/airbubble.tga"</path>
+    <soundEffect>"Data/SFX/aircreate.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"FoodCreation"</name>
+    <id>"452"</id>
+    <type>"400"</type>
+    <cost>"10"</cost>
+    <mp>"5"</mp>
+    <basedamage>"1"</basedamage>
+    <path>"Data/Images/Spells/foodcreation.tga"</path>
+    <soundEffect>"Data/SFX/food.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Heal"</name>
+    <id>"450"</id>
+    <type>"400"</type>
+    <cost>"10"</cost>
+    <mp>"20"</mp>
+    <basedamage>"10"</basedamage>
+    <path>"Data/Images/Spells/heal.tga"</path>
+    <soundEffect>"Data/SFX/healsound.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Alchemy"</name>
+    <id>"453"</id>
+    <type>"400"</type>
+    <cost>"10"</cost>
+    <mp>"50"</mp>
+    <basedamage>"10"</basedamage>
+    <path>"Data/Images/Spells/alchemy.tga"</path>
+    <soundEffect>""</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"BlackHole"</name>
+    <id>"499"</id>
+    <type>"400"</type>
+    <cost>"500"</cost>
+    <mp>"50"</mp>
+    <basedamage>"500"</basedamage>
+    <path>"Data/Images/Spells/gravity.tga"</path>
+    <soundEffect>""</soundEffect>
+  </SPL>
+  
+<!--Ranged Attack Spells-->
+  <SPL>
+    <name>"FireBall"</name>
+    <id>"400"</id>
+    <type>"400"</type>
+    <cost>"10"</cost>
+    <mp>"20"</mp>
+    <basedamage>"10"</basedamage>
+    <path>"Data/Images/Spells/fireball.tga"</path>
+    <soundEffect>""</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"FireScorch"</name>
+    <id>"421"</id>
+    <type>"400"</type>
+    <cost>"50"</cost>
+    <mp>"30"</mp>
+    <basedamage>"20"</basedamage>
+    <path>"Data/Images/Spells/firescorch.tga"</path>
+    <soundEffect>""</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"FireBlast"</name>
+    <id>"431"</id>
+    <type>"400"</type>
+    <cost>"100"</cost>
+    <mp>"50"</mp>
+    <basedamage>"50"</basedamage>
+    <path>"Data/Images/Spells/fireblast.tga"</path>
+    <soundEffect>""</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Updraft"</name>
+    <id>"403"</id>
+    <type>"400"</type>
+    <cost>"10"</cost>
+    <mp>"10"</mp>
+    <basedamage>"10"</basedamage>
+    <path>"Data/Images/Spells/updraft.tga"</path>
+    <soundEffect>"Data/SFX/wind.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Gale"</name>
+    <id>"424"</id>
+    <type>"400"</type>
+    <cost>"45"</cost>
+    <mp>"15"</mp>
+    <basedamage>"20"</basedamage>
+    <path>"Data/Images/Spells/gale.tga"</path>
+    <soundEffect>"Data/SFX/wind.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Tornado"</name>
+    <id>"434"</id>
+    <type>"400"</type>
+    <cost>"90"</cost>
+    <mp>"20"</mp>
+    <basedamage>"30"</basedamage>
+    <path>"Data/Images/Spells/tornado.tga"</path>
+    <soundEffect>"Data/SFX/wind.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"IceCrystal"</name>
+    <id>"401"</id>
+    <type>"400"</type>
+    <cost>"15"</cost>
+    <mp>"30"</mp>
+    <basedamage>"30"</basedamage>
+    <path>"Data/Images/Spells/icecrystal.tga"</path>
+    <soundEffect>"Data/SFX/ice.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"IceBolt"</name>
+    <id>"422"</id>
+    <type>"400"</type>
+    <cost>"60"</cost>
+    <mp>"40"</mp>
+    <basedamage>"60"</basedamage>
+    <path>"Data/Images/Spells/icebolt.tga"</path>
+    <soundEffect>"Data/SFX/ice.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"FrostBlast"</name>
+    <id>"432"</id>
+    <type>"400"</type>
+    <cost>"120"</cost>
+    <mp>"60"</mp>
+    <basedamage>"90"</basedamage>
+    <path>"Data/Images/Spells/frostblast.tga"</path>
+    <soundEffect>"Data/SFX/ice.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"StaticShock"</name>
+    <id>"402"</id>
+    <type>"400"</type>
+    <cost>"20"</cost>
+    <mp>"40"</mp>
+    <basedamage>"20"</basedamage>
+    <path>"Data/Images/Spells/staticshock.tga"</path>
+    <soundEffect>"Data/SFX/lightning.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Zap"</name>
+    <id>"423"</id>
+    <type>"400"</type>
+    <cost>"75"</cost>
+    <mp>"50"</mp>
+    <basedamage>"55"</basedamage>
+    <path>"Data/Images/Spells/zap.tga"</path>
+    <soundEffect>"Data/SFX/lightning.wav"</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Lightning"</name>
+    <id>"433"</id>
+    <type>"400"</type>
+    <cost>"140"</cost>
+    <mp>"70"</mp>
+    <basedamage>"80"</basedamage>
+    <path>"Data/Images/Spells/lightning.tga"</path>
+    <soundEffect>"Data/SFX/lightning.wav"</soundEffect>
+  </SPL>
+  
+  <SPL>
+    <name>"Earthquake"</name>
+    <id>"420"</id>
+    <type>"400"</type>
+    <cost>"50"</cost>
+    <mp>"30"</mp>
+    <basedamage>"50"</basedamage>
+    <path>"Data/Images/Spells/earthquake.tga"</path>
+    <soundEffect>""</soundEffect>
+  </SPL>
+
+  <SPL>
+    <name>"Tsunami"</name>
+    <id>"430"</id>
+    <type>"400"</type>
+    <cost>"150"</cost>
+    <mp>"100"</mp>
+    <basedamage>"120"</basedamage>
+    <path>"Data/Images/Spells/tsunami.tga"</path>
+    <soundEffect>""</soundEffect>
+  </SPL>
+ 
+</TML>
+  

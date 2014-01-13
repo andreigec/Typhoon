@@ -1,0 +1,26 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--Abaddon Map-->
+<TML>
+  <MapExit>
+    <id>"1"</id>
+    <xpos>"35"</xpos>
+    <ypos>"69"</ypos>
+    <ispop>"true"</ispop>
+    <forceType>"1"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+
+  <MapExit>
+    <id>"1"</id>
+    <xpos>"36"</xpos>
+    <ypos>"69"</ypos>
+    <ispop>"true"</ispop>
+    <forceType>"1"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+</TML>

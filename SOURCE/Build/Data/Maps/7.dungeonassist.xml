@@ -1,0 +1,15 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--Dungeon Assist map file-->
+<TML>
+  <DungeonAssist>
+    <numberOfGeneratedLevels>"1"</numberOfGeneratedLevels>
+    <dungeonMapSize>"100"</dungeonMapSize>
+    <isDungeon>"true"</isDungeon>
+    <mapType>"1"</mapType>
+    <entranceMapId>"6"</entranceMapId>
+    <lastMapId>"8"</lastMapId>
+  </DungeonAssist>
+</TML>

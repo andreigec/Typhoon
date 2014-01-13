@@ -1,0 +1,105 @@
+TYPHOON XML HELP
+-commented text gets removed at runtime.
+-text before TML tag and after /TML tag get removed at runtime.
+-Between tags all text outside of "" are removed at runtime.
+
+Types of objects are as follows:
+NPC(any type of npc in the game):
+name=string
+id=integer
+type=integer
+level=integer
+attackbase=integer
+defensebase=integer
+hp=integer
+exp=integer
+canswim=boolean
+faction=integer
+path=string
+
+OBJ(any misc item in the game):
+name=string
+id=integer
+type=integer
+cost=integer
+questitem=boolean
+path=string
+
+ARM(armour items):
+name=string
+id=integer
+type=integer
+cost=integer
+defensePercent=integer
+path=string
+
+WEP(weapons)
+name=string
+id=integer
+type=integer
+cost=integer
+damage=integer
+
+strengthReq=integer (having str over this point results in bonus damage)
+oneHanded=boolean
+path=string
+
+SPL(spells)
+name=string
+id=integer
+cost=integer
+mp=integer
+basedamage=integer
+path=string
+soundEffect=string
+
+MAP(game maps)
+firstMap=string (link to map first loaded into memory on game start)
+name=string
+path=string
+id=integer
+startX=integer
+startY=integer
+enemyCreationRate=integer
+minEnemyLevel=integer
+darknessLevel=integer (0=natural 1-5=light to max dark)
+PresetNpcFile=string
+PresetItemFile=string
+PresetExitFile=string
+
+PresetNPC(Preset Npc for maps) (mapname.npc.xml)
+id=integer
+type=integer
+movetype=integer (0=static, 1=randommove, 2=followplayer)
+talktype=integer (-1=cant talk, 0-99=filetalk,>=100= hard coded shops)
+faction=integer
+xpos=integer
+ypos=integer
+
+PresetItem(Preset Item for maps) (mapname.item.xml)
+type=integer
+amount=integer
+xpos=integer
+ypos=integer
+
+MapExit(Preset Exit points in maps)(mapname.exits.xml)
+id=integer
+xpos=integer
+ypos=integer
+ispop=boolean
+forceType=integer
+changeX=integer
+changeY=integer
+
+DungeonAssist (adds information about dungeons) (mapname.dungeonassist.xml)
+numberOfGeneratedLevels=integer (inclusive)
+lightLevel=integer (0=world lighting 1-5=light to dark)
+dungeonMapSize=integer
+enemyGenerationRate=integer
+minEnemyLevel=integer (will only spawn enemies with this level or over
+isDungeon=boolean
+mapType=integer (1=square rooms with linking paths)
+entranceMapId=integer (when exiting up stairs in dungeon or exiting down stairs in tower will take to this map)
+lastMapId=integer (will load this map after the number of generated levels specified above
+
+

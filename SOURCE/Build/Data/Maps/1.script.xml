@@ -1,0 +1,56 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--scripting-->
+<TML>
+
+  <Script>
+    <condition>"gb.qls = 1"</condition>
+    <condition>"gb.ls != 0"</condition>
+    <effect>"screen-off"</effect>
+    <effect>"lock-player"</effect>
+    <effect>"light-level 0"</effect>
+    <effect>"play-music 1"</effect>
+    <effect>"msg 1 1"</effect>
+    <effect>"addqls"</effect>
+  </Script>
+
+  <Script>
+    <condition>"gb.qls = 2"</condition>
+    <condition>"gb.ls != 27"</condition>
+    <effect>"msg 2 1"</effect>
+    <effect>"addqls"</effect>
+  </Script>
+
+<Script>
+  <condition>"gb.qls = 3"</condition>
+  <condition>"gb.ls != 27"</condition>
+  <effect>"msg 3 1"</effect>
+  <effect>"addqls"</effect>
+</Script>
+
+  <Script>
+    <condition>"gb.qls = 4"</condition>
+    <condition>"gb.ls != 27"</condition>
+    <effect>"msg 4 1"</effect>
+    <effect>"addqls"</effect>
+  </Script>
+
+  <Script>
+    <condition>"gb.qls = 5"</condition>
+    <condition>"gb.ls != 27"</condition>
+    <effect>"msg 5 1"</effect>
+    <effect>"addqls"</effect>
+  </Script>
+
+  <Script>
+    <condition>"gb.qls = 6"</condition>
+    <condition>"gb.ls != 27"</condition>
+    <effect>"stop-music 1"</effect>
+    <effect>"fade-in"</effect>
+    <effect>"unlock-player"</effect>
+    <effect>"addqls"</effect>
+  </Script>
+
+</TML>

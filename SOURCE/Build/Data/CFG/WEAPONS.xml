@@ -1,0 +1,378 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<TML>
+  <!--Weapons-->
+  <!--Default weapon (fist)-->
+  <WEP>
+    <name>"FistOfFury"</name>
+    <id>"200"</id>
+    <type>"101"</type>
+    <cost>"0"</cost>
+    <damage>"1"</damage>
+    <strengthReq>"0"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/fist.tga"</path>    
+  </WEP>
+
+  <!--Daggers-->
+  <WEP>
+    <name>"BronzeDagger"</name>
+    <id>"201"</id>
+    <type>"100"</type>
+    <cost>"50"</cost>
+    <damage>"8"</damage>
+    <strengthReq>"1"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/bdagger.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"IronDagger"</name>
+    <id>"202"</id>
+    <type>"100"</type>
+    <cost>"200"</cost>
+    <damage>"20"</damage>
+    <strengthReq>"4"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/idagger.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"SteelDagger"</name>
+    <id>"203"</id>
+    <type>"100"</type>
+    <cost>"400"</cost>
+    <damage>"30"</damage>
+    <strengthReq>"6"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/sdagger.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"TitaniumDagger"</name>
+    <id>"204"</id>
+    <type>"100"</type>
+    <cost>"800"</cost>
+    <damage>"40"</damage>
+    <strengthReq>"8"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/tdagger.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"DiamondDagger"</name>
+    <id>"205"</id>
+    <type>"100"</type>
+    <cost>"1600"</cost>
+    <damage>"50"</damage>
+    <strengthReq>"10"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/ddagger.tga"</path>
+  </WEP>
+  
+  <!--Short Swords-->
+  <WEP>
+    <name>"BronzeShortSword"</name>
+    <id>"206"</id>
+    <type>"100"</type>
+    <cost>"100"</cost>
+    <damage>"10"</damage>
+    <strengthReq>"10"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/bshortsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"IronShortSword"</name>
+    <id>"207"</id>
+    <type>"100"</type>
+    <cost>"400"</cost>
+    <damage>"30"</damage>
+    <strengthReq>"14"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/ishortsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"SteelShortSword"</name>
+    <id>"208"</id>
+    <type>"100"</type>
+    <cost>"800"</cost>
+    <damage>"40"</damage>
+    <strengthReq>"16"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/sshortsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"TitaniumShortSword"</name>
+    <id>"209"</id>
+    <type>"100"</type>
+    <cost>"1600"</cost>
+    <damage>"50"</damage>
+    <strengthReq>"18"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/tshortsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"DiamondShortSword"</name>
+    <id>"210"</id>
+    <type>"100"</type>
+    <cost>"3200"</cost>
+    <damage>"100"</damage>
+    <strengthReq>"20"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/dshortsword.tga"</path>
+  </WEP>
+  
+  <!--Long Swords-->
+  <WEP>
+    <name>"BronzeLongSword"</name>
+    <id>"211"</id>
+    <type>"100"</type>
+    <cost>"200"</cost>
+    <damage>"20"</damage>
+    <strengthReq>"20"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/blongsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"IronLongSword"</name>
+    <id>"212"</id>
+    <type>"100"</type>
+    <cost>"800"</cost>
+    <damage>"40"</damage>
+    <strengthReq>"24"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/ilongsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"SteelLongSword"</name>
+    <id>"213"</id>
+    <type>"100"</type>
+    <cost>"1600"</cost>
+    <damage>"50"</damage>
+    <strengthReq>"26"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/slongsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"TitaniumLongSword"</name>
+    <id>"214"</id>
+    <type>"100"</type>
+    <cost>"3200"</cost>
+    <damage>"100"</damage>
+    <strengthReq>"28"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/tlongsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"DiamondLongSword"</name>
+    <id>"215"</id>
+    <type>"100"</type>
+    <cost>"6400"</cost>
+    <damage>"200"</damage>
+    <strengthReq>"30"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/dlongsword.tga"</path>
+  </WEP>
+  
+  <!--Broad Sword-->
+  <WEP>
+    <name>"BronzeBroadSword"</name>
+    <id>"216"</id>
+    <type>"100"</type>
+    <cost>"400"</cost>
+    <damage>"30"</damage>
+    <strengthReq>"30"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/bbroadsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"IronBroadSword"</name>
+    <id>"217"</id>
+    <type>"100"</type>
+    <cost>"1600"</cost>
+    <damage>"50"</damage>
+    <strengthReq>"34"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/ibroadsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"SteelBroadSword"</name>
+    <id>"218"</id>
+    <type>"100"</type>
+    <cost>"3200"</cost>
+    <damage>"100"</damage>
+    <strengthReq>"36"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/sbroadsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"TitaniumBroadSword"</name>
+    <id>"219"</id>
+    <type>"100"</type>
+    <cost>"6400"</cost>
+    <damage>"200"</damage>
+    <strengthReq>"38"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/tbroadsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"DiamondBroadSword"</name>
+    <id>"220"</id>
+    <type>"100"</type>
+    <cost>"12800"</cost>
+    <damage>"400"</damage>
+    <strengthReq>"40"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/dbroadsword.tga"</path>
+  </WEP>
+  
+  <!--Bastard Swords-->
+  <WEP>
+    <name>"BronzeBastardSword"</name>
+    <id>"221"</id>
+    <type>"100"</type>
+    <cost>"1600"</cost>
+    <damage>"50"</damage>
+    <strengthReq>"40"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/bbastsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"IronBastardSword"</name>
+    <id>"222"</id>
+    <type>"100"</type>
+    <cost>"3200"</cost>
+    <damage>"100"</damage>
+    <strengthReq>"45"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/ibastsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"SteelBastardSword"</name>
+    <id>"223"</id>
+    <type>"100"</type>
+    <cost>"6400"</cost>
+    <damage>"200"</damage>
+    <strengthReq>"50"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/sbastsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"TitaniumBastardSword"</name>
+    <id>"224"</id>
+    <type>"100"</type>
+    <cost>"12800"</cost>
+    <damage>"400"</damage>
+    <strengthReq>"55"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/tbastsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"DiamondBastardSword"</name>
+    <id>"225"</id>
+    <type>"100"</type>
+    <cost>"25600"</cost>
+    <damage>"800"</damage>
+    <strengthReq>"60"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/dbastsword.tga"</path>
+  </WEP>
+  
+  <!--Giant Swords -->
+  <WEP>
+    <name>"BronzeGiantSword"</name>
+    <id>"226"</id>
+    <type>"100"</type>
+    <cost>"3200"</cost>
+    <damage>"100"</damage>
+    <strengthReq>"60"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/bgiantsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"IronGiantSword"</name>
+    <id>"227"</id>
+    <type>"100"</type>
+    <cost>"6400"</cost>
+    <damage>"200"</damage>
+    <strengthReq>"65"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/igiantsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"SteelGiantSword"</name>
+    <id>"228"</id>
+    <type>"100"</type>
+    <cost>"12800"</cost>
+    <damage>"400"</damage>
+    <strengthReq>"70"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/sgiantsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"TitaniumGiantSword"</name>
+    <id>"229"</id>
+    <type>"100"</type>
+    <cost>"25600"</cost>
+    <damage>"800"</damage>
+    <strengthReq>"75"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/tgiantsword.tga"</path>
+  </WEP>
+
+  <WEP>
+    <name>"DiamondGiantSword"</name>
+    <id>"230"</id>
+    <type>"100"</type>
+    <cost>"50000"</cost>
+    <damage>"1600"</damage>
+    <strengthReq>"80"</strengthReq>
+    <oneHanded>"true"</oneHanded>
+    <path>"Data/Images/Weapons/dgiantsword.tga"</path>
+  </WEP>
+  
+  <!--Other Weapons-->
+  <WEP>
+    <name>"Torch"</name>
+    <id>"231"</id>
+    <type>"102"</type>
+    <cost>"10"</cost>
+    <damage>"3"</damage>
+    <strengthReq>"1"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/torch.tga"</path>
+  </WEP>
+  
+  <WEP>
+    <name>"Katana"</name>
+    <id>"232"</id>
+    <type>"100"</type>
+    <cost>"75000"</cost>
+    <damage>"1000"</damage>
+    <strengthReq>"70"</strengthReq>
+    <oneHanded>"false"</oneHanded>
+    <path>"Data/Images/Weapons/katana.tga"</path>
+  </WEP>
+
+</TML>

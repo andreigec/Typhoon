@@ -1,0 +1,47 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--World Map-->
+<TML>
+  <MapExit>
+    <id>"4"</id>
+    <xpos>"971"</xpos>
+    <ypos>"56"</ypos>
+    <ispop>"false"</ispop>
+    <forceType>"0"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+  
+  <MapExit>
+    <id>"2"</id>
+    <xpos>"986"</xpos>
+    <ypos>"22"</ypos>
+    <ispop>"false"</ispop>
+    <forceType>"0"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+
+  <MapExit>
+    <id>"5"</id>
+    <xpos>"709"</xpos>
+    <ypos>"45"</ypos>
+    <ispop>"false"</ispop>
+    <forceType>"0"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+
+  <MapExit>
+    <id>"6"</id>
+    <xpos>"944"</xpos>
+    <ypos>"132"</ypos>
+    <ispop>"false"</ispop>
+    <forceType>"0"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+  
+</TML>

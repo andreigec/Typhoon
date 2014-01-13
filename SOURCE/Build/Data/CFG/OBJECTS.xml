@@ -1,0 +1,69 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<TML>
+  <!--Items-->
+  <OBJ>
+    <name>"gold"</name>
+    <id>"300"</id>
+    <type>"2"</type>
+    <cost>"-1"</cost>
+    <questitem>"false"</questitem>
+    <path>"Data/Images/Items/gold.tga"</path>
+  </OBJ>
+
+  <OBJ>
+    <name>"food"</name>
+    <id>"301"</id>
+    <type>"3"</type>
+    <cost>"-1"</cost>
+    <questitem>"false"</questitem>
+    <path>"Data/Images/Items/food.tga"</path>    
+  </OBJ>
+
+  <OBJ>
+    <name>"BridgePass"</name>
+    <id>"302"</id>
+    <type>"1"</type>
+    <cost>"-1"</cost>
+    <questitem>"true"</questitem>
+    <path>"Data/Images/Items/questitem.tga"</path>
+  </OBJ>
+
+  <OBJ>
+    <name>"HealthPotion"</name>
+    <id>"303"</id>
+    <type>"4"</type>
+    <cost>"5"</cost>
+    <questitem>"false"</questitem>
+    <path>"Data/Images/Items/hpotion.tga"</path>
+  </OBJ>
+
+  <OBJ>
+    <name>"MagicPotion"</name>
+    <id>"304"</id>
+    <type>"5"</type>
+    <cost>"5"</cost>
+    <questitem>"false"</questitem>
+    <path>"Data/Images/Items/mpotion.tga"</path>
+  </OBJ>
+
+  <OBJ>
+    <name>"StaminaPotion"</name>
+    <id>"305"</id>
+    <type>"6"</type>
+    <cost>"4"</cost>
+    <questitem>"false"</questitem>
+    <path>"Data/Images/Items/spotion.tga"</path>
+  </OBJ>
+  
+  <OBJ>
+    <name>"FullPotion"</name>
+    <id>"306"</id>
+    <type>"7"</type>
+    <cost>"12"</cost>
+    <questitem>"false"</questitem>
+    <path>"Data/Images/Items/fpotion.tga"</path>
+  </OBJ>
+</TML>

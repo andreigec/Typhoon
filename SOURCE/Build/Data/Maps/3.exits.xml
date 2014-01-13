@@ -1,0 +1,16 @@
+<!--
+TML - Custom XML document (Typhoon XML)
+-Read TML help document for help using typhoon xml
+-->
+<!--Avar Basement Map-->
+<TML>
+  <MapExit>
+    <id>"2"</id>
+    <xpos>"10"</xpos>
+    <ypos>"18"</ypos>
+    <ispop>"true"</ispop>
+    <forceType>"0"</forceType>
+    <changeX>"0"</changeX>
+    <changeY>"0"</changeY>
+  </MapExit>
+</TML>
